@@ -6,8 +6,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+#root{
+  viewport-fit: 100%;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.new{
+  align-self: center;}
+
+.App {
+  text-align: center;
+}
+.newpro{
+  margin-bottom: 3%;
+}
+.Home{
+  padding: 5% 10% 7%
 }
