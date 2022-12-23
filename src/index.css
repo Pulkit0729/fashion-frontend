@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 #root{
   viewport-fit: 100%;
@@ -13,15 +14,82 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.new{
-  align-self: center;}
+
 
 .App {
   text-align: center;
 }
 .newpro{
+  text-align: left;
   margin-bottom: 3%;
 }
+/* Header-Section */
+.search{
+  display: flex;
+  align-self: center;
+  background-color: #fff;
+  border-radius: 2px 0 0 2px;
+
+}
+.search input{
+  border: 0;
+  width: 100vh;
+}
+
+.new{
+  align-self: center;
+}
+.different{
+  display: flex;
+}
+
+/* HOME_SECTION */
 .Home{
   padding: 5% 10% 7%
+}
+.Home-heading{
+  margin-bottom: 10%
+}
+
+/* Shop-Section */
+.full{
+  border: 1px solid;
+}
+.title-img{
+  border: 1px solid;
+  margin-top: 3%;
+  height: 70vh;
+
+}
+.cover-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.Shop-name{
+  border: 1px solid;
+  text-align:left
+}
+.Shop-taskbar{
+  border: 1px solid;
+  text-align: left;
+  padding: 1% 0;
+}
+.Shop-taskbar-item{
+  
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  margin: 0 1%;
+  font-size: 1.5rem;
+}
+
+/* Product Screen section */
+.ps{
+  padding: 5% 0%;
+}
+.ps-description{
+  text-align: left;
 }
